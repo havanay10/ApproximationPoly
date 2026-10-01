@@ -27,6 +27,7 @@ print("\n")
 print("QUESTION 1: Polynôme de Taylor de degré 3")
 print("\n")
 
+
 # P₃(x) = f(0) + f'(0)x + f''(0)x²/2! + f'''(0)x³/3!
 P3 = lambda x: derivatives[0] + derivatives[1]*x + (derivatives[2]/2)*x**2 + (derivatives[3]/6)*x**3
 
