@@ -1,0 +1,41 @@
+# ============================================
+# .gitignore
+# Fichiers et dossiers à NE PAS envoyer sur GitHub
+# ============================================
+
+# ---------- DÉPENDANCES ----------
+node_modules/
+.pnp
+.pnp.js
+
+# ---------- BUILD ----------
+dist/
+build/
+*.local
+
+# ---------- VARIABLES D'ENVIRONNEMENT ----------
+.env
+.env.local
+.env.*.local
+
+# ---------- LOGS ----------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- ÉDITEURS / OS ----------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ---------- CACHE ----------
+.cache/
+.parcel-cache/
+.vite/
